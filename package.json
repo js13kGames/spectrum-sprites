@@ -1,0 +1,13 @@
+{
+  "name": "spectrum-sprites",
+  "version": "0.18.0",
+  "description": "13kb turn-based artillery with destructible terrain, online play, and a narwhal. js13kGames 2026.",
+  "license": "MIT",
+  "scripts": {
+    "build": "python tools/pack.py"
+  },
+  "devDependencies": {
+    "roadroller": "2.1.0",
+    "terser": "5.50.0"
+  }
+}

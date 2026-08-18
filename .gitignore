@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.zip
+PACK_RECEIPT.json
+__pycache__/
+*.pyc
+.DS_Store
