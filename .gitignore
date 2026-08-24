@@ -1,7 +1,10 @@
 node_modules/
 dist/
+evidence/
+media/
 *.zip
 PACK_RECEIPT.json
+BUILD_RECEIPT.json
 __pycache__/
 *.pyc
 .DS_Store

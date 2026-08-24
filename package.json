@@ -1,10 +1,17 @@
 {
-  "name": "spectrum-sprites",
-  "version": "0.18.0",
-  "description": "13kb turn-based artillery with destructible terrain, online play, and a narwhal. js13kGames 2026.",
+  "name": "spectrum-sprites-js13k",
+  "version": "0.20.0",
+  "private": true,
+  "description": "js13kGames 2026 turn-based artillery with destructible procedural terrain, online play, AI, and a sea unicorn.",
   "license": "MIT",
   "scripts": {
-    "build": "python tools/pack.py"
+    "build": "python tools/pack.py && python tests/verify.py",
+    "verify": "python tests/verify.py",
+    "runtime": "node scripts/runtime_stub.mjs",
+    "spawnrange": "node scripts/spawnrangetest.mjs",
+    "ai": "node scripts/aitest.mjs",
+    "qm": "node scripts/qmtest.mjs",
+    "accept": "python tests/verify.py && node scripts/runtime_stub.mjs && node scripts/spawnrangetest.mjs && node scripts/aitest.mjs && node scripts/qmtest.mjs"
   },
   "devDependencies": {
     "roadroller": "2.1.0",
