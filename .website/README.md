@@ -1,4 +1,8 @@
 ---
+genres:
+  - strategy
+  - party
+  - tabletop
 # See github.com/js13kGames/hello-world for supported frontmatter
 ---
 
